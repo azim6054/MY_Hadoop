@@ -1,5 +1,5 @@
 -----*** upload .pem key to DC **----
-$ scp -i abc.pem abc.pem ubuntu@<pub-ip>:/home/ubuntu/.ssh
+$ scp -i abc.pem abc.pem ubuntu@<pub-ip>:~/.ssh
 >> do this for all nodes
 
 $ ssh -i abc.pem <private-ip of any node>
